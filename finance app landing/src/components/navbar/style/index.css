@@ -1,0 +1,49 @@
+.navbar {
+    height: 56px;
+    max-width: 946px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 305px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.navigation li a:hover {
+    color: #16194F;
+    transition: .3s;
+}
+
+.login-btn {
+    background-color: #F44E77;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 54px;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #fb255e;
+}
